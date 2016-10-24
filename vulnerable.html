@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script>
+      hook=window.location.search.substr(1).split('=')[1];
+      console.log(hook);
+      script = document.createElement('script');
+      script.src = hook;
+      document.head.appendChild(script)
+    </script>
+  </head>
+  <body>
+    This page is built with a contrived reflected XSS. Simply put your beef hook as the value of a get parameter. AKA <a href="vulnerable.html?url=http://localhost:3000/hook.js">like this</a>
+  </body>
+</html>

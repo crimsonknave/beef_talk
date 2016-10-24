@@ -1,0 +1,21 @@
+* How you get hooked
+** XSS perfect
+*** Reflected will naturally only last as long as they stay on the page, but people open tabs and leave them often
+*** Stored is better as it will come back
+* What you can do
+** Social Engineering
+** Detect VM
+** Get Page content
+*** Cookies
+*** HTML
+*** local/session storage
+** Alter content
+*** Replace link destinations
+*** Update phone numbers
+*** General defacement
+** Redirect browser
+** Recon
+*** Detect Social Networks
+* BeEF has an API
+** That makes it scriptable
+* Vegan plugin (not working?)
