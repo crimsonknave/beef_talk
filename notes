@@ -5,6 +5,7 @@
 * What you can do
 ** Social Engineering
 ** Detect VM
+** Metasploit
 ** Get Page content
 *** Cookies
 *** HTML
@@ -16,6 +17,7 @@
 ** Redirect browser
 ** Recon
 *** Detect Social Networks
+** And of course, shit tons of exploits
 * BeEF has an API
 ** That makes it scriptable
 * Vegan plugin (not working?)
